@@ -1,0 +1,352 @@
+[
+    {
+        "query": "What is the price of iPhone 15 Pro?",
+        "ground_truth": "The iPhone 15 Pro is priced at ₹134,900",
+        "context": "price_inquiry"
+    },
+    {
+        "query": "Where can I find Dettol Hand Sanitizer?",
+        "ground_truth": "Dettol Hand Sanitizer is located at Tray 1, Row 2, Column 2",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Suggest smartphones under 70000",
+        "ground_truth": "OnePlus 12 (₹64,999) and Xiaomi 14 (₹69,999) are excellent smartphones under ₹70,000. Both feature Snapdragon 8 Gen 3 processors and impressive camera systems.",
+        "context": "recommendation"
+    },
+    {
+        "query": "What are the ingredients in Himalaya Face Wash?",
+        "ground_truth": "Himalaya Face Wash contains neem, turmeric, and aloe vera as key ingredients",
+        "context": "ingredients_inquiry"
+    },
+    {
+        "query": "Compare Samsung Galaxy S24 Ultra and iPhone 15 Pro",
+        "ground_truth": "Samsung Galaxy S24 Ultra has a larger 6.8-inch AMOLED display with 200MP camera and 5000mAh battery, priced at ₹129,999. iPhone 15 Pro has a 6.1-inch OLED display with 48MP camera and 3274mAh battery, priced at ₹134,900. Samsung offers better battery and camera specs at a lower price.",
+        "context": "comparison"
+    },
+    {
+        "query": "Show me all beverages available",
+        "ground_truth": "Available beverages include Coca-Cola 330ml (₹40), Pepsi 500ml (₹50), Sprite 250ml (₹35), Thums Up 600ml (₹55), Mountain Dew 250ml (₹35), Real Orange Juice 1L (₹85), Minute Maid Pulpy Orange 400ml (₹45), Frooti Mango Drink 200ml (₹20), Maaza Mango Drink 600ml (₹65), Limca 300ml (₹40), Kinley Water 1L (₹20), Bisleri Water 500ml (₹15), Red Bull Energy Drink 250ml (₹125), Tropicana Apple Juice 200ml (₹35), and Nimbooz Masala Soda 300ml (₹30)",
+        "context": "product_listing"
+    },
+    {
+        "query": "What is the cheapest laptop available?",
+        "ground_truth": "The cheapest laptop available is ASUS VivoBook 15 priced at ₹38,990, featuring a 15.6-inch FHD display, Intel Core i3 processor, 256GB SSD, and 4GB RAM",
+        "context": "comparison"
+    },
+    {
+        "query": "Recommend some snacks for a party",
+        "ground_truth": "For a party, I recommend Lays Classic Chips 52g (₹20), Kurkure Masala Munch 82g (₹20), Haldiram's Bhujia 200g (₹65), Pringles Original 107g (₹99), Oreo Original Cookies 120g (₹40), Dairy Milk Silk 60g (₹85), and KitKat 4 Finger 37.3g (₹40)",
+        "context": "recommendation"
+    },
+    {
+        "query": "Where is Maggi noodles located?",
+        "ground_truth": "Maggi 2-Minute Noodles Masala 70g is located at Tray 6, Row 1, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "What personal care products cost less than 100 rupees?",
+        "ground_truth": "Personal care products under ₹100 include Vaseline Lip Balm (₹75), Colgate Toothpaste (₹65), Dettol Hand Sanitizer (₹85), and Ponds Cold Cream (₹95)",
+        "context": "price_inquiry"
+    },
+    {
+        "query": "Where can I find Sony headphones?",
+        "ground_truth": "Sony WH-1000XM5 headphones are located at Tray 2, Row 3, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Tell me the location of Amul Butter",
+        "ground_truth": "Amul Butter 500g is located at Tray 6, Row 1, Column 4",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Where is Surf Excel detergent kept?",
+        "ground_truth": "Surf Excel Detergent 1kg is located at Tray 7, Row 1, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "What is the location of MacBook Air M3?",
+        "ground_truth": "MacBook Air M3 is located at Tray 2, Row 2, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Where can I find Parle-G biscuits?",
+        "ground_truth": "Parle-G Biscuits 200g are located at Tray 4, Row 2, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Find me the location of Red Bull",
+        "ground_truth": "Red Bull Energy Drink 250ml is located at Tray 3, Row 3, Column 3",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Where is Vim dishwash liquid placed?",
+        "ground_truth": "Vim Dishwash Liquid 500ml is located at Tray 7, Row 1, Column 2",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Tell me where Nivea lotion is stored",
+        "ground_truth": "Nivea Moisturizing Lotion is located at Tray 1, Row 1, Column 1",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Location of Samsung Galaxy Buds2 Pro?",
+        "ground_truth": "Samsung Galaxy Buds2 Pro are located at Tray 2, Row 3, Column 3",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "Where can I get Nescafe coffee?",
+        "ground_truth": "Nescafe Classic Coffee 50g is located at Tray 6, Row 2, Column 2",
+        "context": "location_inquiry"
+    },
+    {
+        "query": "What is the battery capacity of OnePlus 12?",
+        "ground_truth": "OnePlus 12 has a 5400mAh battery capacity",
+        "context": "specs_inquiry"
+    },
+    {
+        "query": "Tell me the processor of Dell XPS 13",
+        "ground_truth": "Dell XPS 13 features an Intel Core i7 processor",
+        "context": "specs_inquiry"
+    },
+    {
+        "query": "What are the ingredients in Colgate Toothpaste?",
+        "ground_truth": "Colgate Toothpaste contains fluoride, calcium carbonate, and sodium lauryl sulfate as key ingredients",
+        "context": "ingredients_inquiry"
+    },
+    {
+        "query": "How much storage does Xiaomi 14 have?",
+        "ground_truth": "Xiaomi 14 has 512GB of storage",
+        "context": "specs_inquiry"
+    },
+    {
+        "query": "What is the price of Mi Power Bank?",
+        "ground_truth": "Mi Power Bank 3i 20000mAh is priced at ₹1,799",
+        "context": "price_inquiry"
+    },
+    {
+        "query": "Display size of Google Pixel 8 Pro?",
+        "ground_truth": "Google Pixel 8 Pro has a 6.7-inch OLED display",
+        "context": "specs_inquiry"
+    },
+    {
+        "query": "What ingredients are in Maggi noodles?",
+        "ground_truth": "Maggi 2-Minute Noodles contains wheat flour, palm oil, salt, and masala seasoning",
+        "context": "ingredients_inquiry"
+    },
+    {
+        "query": "Price of JBL Tune 760NC headphones?",
+        "ground_truth": "JBL Tune 760NC headphones are priced at ₹6,999",
+        "context": "price_inquiry"
+    },
+    {
+        "query": "What is in Dettol antiseptic liquid?",
+        "ground_truth": "Dettol antiseptic liquid contains chloroxylenol, pine oil, and castor oil",
+        "context": "ingredients_inquiry"
+    },
+    {
+        "query": "RAM in HP Pavilion 15 laptop?",
+        "ground_truth": "HP Pavilion 15 has 8GB RAM",
+        "context": "specs_inquiry"
+    },
+    {
+        "query": "Recommend good headphones under 10000",
+        "ground_truth": "I recommend JBL Tune 760NC (₹6,999) with 35 hours battery life and active noise cancellation, or boAt Rockerz 550 (₹1,799) for a budget-friendly option with 20 hours battery life",
+        "context": "recommendation"
+    },
+    {
+        "query": "Suggest some healthy beverages",
+        "ground_truth": "For healthy beverage options, I recommend Real Orange Juice 1L (₹85) with 100% natural orange juice and vitamin C, Tropicana Apple Juice 200ml (₹35) with vitamin C, Kinley Water 1L (₹20) or Bisleri Water 500ml (₹15) for pure hydration",
+        "context": "recommendation"
+    },
+    {
+        "query": "What snacks would you recommend for kids?",
+        "ground_truth": "For kids, I recommend Parle-G Biscuits 200g (₹25), Oreo Original Cookies 120g (₹40), Hide & Seek Chocolate Chip Cookies 100g (₹35), KitKat 4 Finger (₹40), and Frooti Mango Drink 200ml (₹20)",
+        "context": "recommendation"
+    },
+    {
+        "query": "Best laptop for students under 50000?",
+        "ground_truth": "For students under ₹50,000, I recommend ASUS VivoBook 15 (₹38,990) with 15.6-inch FHD display, Intel Core i3 processor, 256GB SSD, and 4GB RAM. It offers good value for basic computing needs and studying.",
+        "context": "recommendation"
+    },
+    {
+        "query": "Recommend personal care products for daily use",
+        "ground_truth": "For daily personal care, I recommend Nivea Moisturizing Lotion (₹245), Head & Shoulders Shampoo (₹180), Colgate Toothpaste (₹65), Dettol Hand Sanitizer (₹85), and Lakme Sunscreen SPF 50 (₹350)",
+        "context": "recommendation"
+    },
+    {
+        "query": "What household cleaning products should I buy?",
+        "ground_truth": "Essential household cleaning products include Surf Excel Detergent 1kg (₹165), Vim Dishwash Liquid 500ml (₹95), Harpic Toilet Cleaner 500ml (₹105), Lizol Disinfectant Floor Cleaner 975ml (₹145), and Colin Glass Cleaner 500ml (₹125)",
+        "context": "recommendation"
+    },
+    {
+        "query": "Suggest instant food items for quick meals",
+        "ground_truth": "For quick meals, I recommend Maggi 2-Minute Noodles Masala 70g (₹14), Yippee Noodles Magic Masala 60g (₹12), Top Ramen Curry 280g (₹42), and MTR Ready to Eat Rava Idli 300g (₹85)",
+        "context": "recommendation"
+    },
+    {
+        "query": "Best smartphones with good camera under 100000",
+        "ground_truth": "For excellent camera phones under ₹100,000, I recommend Samsung Galaxy S24 Ultra (₹129,999) with 200MP + 50MP + 12MP + 10MP cameras, Google Pixel 8 Pro (₹84,999) with 50MP + 48MP + 48MP cameras, and Xiaomi 14 (₹69,999) with triple 50MP cameras",
+        "context": "recommendation"
+    },
+    {
+        "query": "Recommend chocolate bars",
+        "ground_truth": "I recommend Dairy Milk Silk 60g (₹85) for smooth creamy chocolate, KitKat 4 Finger 37.3g (₹40) for crispy wafer, Snickers Peanut Bar 50g (₹45) for peanuts and caramel, and 5 Star Chocolate 22g (₹20) for a budget option",
+        "context": "recommendation"
+    },
+    {
+        "query": "What stationery items do I need for school?",
+        "ground_truth": "Essential school stationery includes Classmate Notebook A4 200 Pages (₹85), Reynolds Ball Pen Blue 10 Pack (₹50), Apsara Pencils HB 10 Pack (₹25), Camlin Geometry Box (₹120), Staedtler Eraser (₹15), and Natraj Sharpener (₹5)",
+        "context": "recommendation"
+    },
+    {
+        "query": "Which is cheaper: Samsung S24 Ultra or iPhone 15 Pro?",
+        "ground_truth": "Samsung Galaxy S24 Ultra is cheaper at ₹129,999 compared to iPhone 15 Pro at ₹134,900, saving you ₹4,901",
+        "context": "comparison"
+    },
+    {
+        "query": "Compare OnePlus 12 and Xiaomi 14 battery life",
+        "ground_truth": "OnePlus 12 has a larger 5400mAh battery compared to Xiaomi 14's 4610mAh battery. OnePlus 12 offers 790mAh more capacity for longer battery life.",
+        "context": "comparison"
+    },
+    {
+        "query": "What's the most expensive laptop available?",
+        "ground_truth": "The most expensive laptop available is Dell XPS 13 priced at ₹125,990, featuring a 13.4-inch FHD+ display, Intel Core i7 processor, 512GB SSD, and 16GB RAM",
+        "context": "comparison"
+    },
+    {
+        "query": "Cheapest beverage in the store?",
+        "ground_truth": "The cheapest beverage is Bisleri Water 500ml priced at ₹15",
+        "context": "comparison"
+    },
+    {
+        "query": "Best value smartphone under 70000?",
+        "ground_truth": "OnePlus 12 at ₹64,999 offers the best value with 6.82-inch AMOLED display, Snapdragon 8 Gen 3 processor, 50MP + 64MP + 48MP cameras, 256GB storage, and the highest battery capacity of 5400mAh in this price range",
+        "context": "comparison"
+    },
+    {
+        "query": "Which laptop has the best battery life?",
+        "ground_truth": "MacBook Air M3 has the best battery life with 18 hours, followed by Dell XPS 13 with 12 hours, and Lenovo ThinkPad E14 with 10 hours",
+        "context": "comparison"
+    },
+    {
+        "query": "Compare Coca-Cola and Pepsi prices",
+        "ground_truth": "Coca-Cola 330ml Can is priced at ₹40 while Pepsi 500ml Bottle is priced at ₹50. Pepsi offers more quantity (500ml vs 330ml) but costs ₹10 more",
+        "context": "comparison"
+    },
+    {
+        "query": "Which is the best noise cancelling headphone?",
+        "ground_truth": "Sony WH-1000XM5 at ₹29,990 is the best noise cancelling headphone, offering 30 hours battery life and premium active noise cancellation with Bluetooth 5.2 connectivity",
+        "context": "comparison"
+    },
+    {
+        "query": "Cheapest chocolate available?",
+        "ground_truth": "The cheapest chocolate available is 5 Star Chocolate 22g priced at ₹20",
+        "context": "comparison"
+    },
+    {
+        "query": "Which personal care product offers best sun protection?",
+        "ground_truth": "Lakme Sunscreen SPF 50 at ₹350 offers the best sun protection with high SPF 50, containing zinc oxide, titanium dioxide, and vitamin C",
+        "context": "comparison"
+    },
+    {
+        "query": "मुझे सस्ता स्मार्टफोन चाहिए",
+        "ground_truth": "The most affordable smartphone is OnePlus 12 priced at ₹64,999, featuring Snapdragon 8 Gen 3 processor, 6.82-inch AMOLED display, and 5400mAh battery",
+        "context": "hindi_query"
+    },
+    {
+        "query": "कौन सा लैपटॉप अच्छा है?",
+        "ground_truth": "For good laptops, I recommend MacBook Air M3 (₹114,900) with 18 hours battery life and Apple M3 processor, or Dell XPS 13 (₹125,990) with Intel Core i7 and 16GB RAM for Windows users",
+        "context": "hindi_query"
+    },
+    {
+        "query": "मुझे चॉकलेट दिखाओ",
+        "ground_truth": "Available chocolates include Dairy Milk Silk 60g (₹85), KitKat 4 Finger 37.3g (₹40), Snickers Peanut Bar 50g (₹45), and 5 Star Chocolate 22g (₹20)",
+        "context": "hindi_query"
+    },
+    {
+        "query": "पानी की बोतल कहाँ है?",
+        "ground_truth": "Water bottles available are Kinley Water 1L located at Tray 3, Row 3, Column 1 and Bisleri Water 500ml located at Tray 3, Row 3, Column 2",
+        "context": "hindi_query"
+    },
+    {
+        "query": "सबसे सस्ता हेडफोन कौन सा है?",
+        "ground_truth": "The cheapest headphones are boAt Rockerz 550 and Mi Power Bank 3i, both priced at ₹1,799. The boAt Rockerz 550 offers 20 hours battery life with Bluetooth 5.0 connectivity",
+        "context": "hindi_query"
+    },
+    {
+        "query": "मुझे टूथपेस्ट चाहिए",
+        "ground_truth": "Colgate Toothpaste is available at ₹65, located at Tray 1, Row 1, Column 5. It contains fluoride and calcium carbonate for cavity protection",
+        "context": "hindi_query"
+    },
+    {
+        "query": "मैगी कितने की है?",
+        "ground_truth": "Maggi 2-Minute Noodles Masala 70g is priced at ₹14 and is located at Tray 6, Row 1, Column 1",
+        "context": "hindi_query"
+    },
+    {
+        "query": "अच्छा शैम्पू बताओ",
+        "ground_truth": "Good shampoo options include Head & Shoulders Shampoo (₹180) for anti-dandruff, L'Oreal Shampoo (₹425) for professional sulfate-free care, and Pantene Conditioner (₹195) for smooth and silky hair",
+        "context": "hindi_query"
+    },
+    {
+        "query": "बिस्कुट कौन कौन से हैं?",
+        "ground_truth": "Available biscuits include Parle-G Biscuits 200g (₹25), Oreo Original Cookies 120g (₹40), Good Day Cashew Cookies 216g (₹80), Monaco Classic Salted Biscuits 200g (₹30), Hide & Seek Chocolate Chip Cookies 100g (₹35), and Britannia Marie Gold Biscuits 250g (₹35)",
+        "context": "hindi_query"
+    },
+    {
+        "query": "सफाई के सामान दिखाओ",
+        "ground_truth": "Cleaning products available include Surf Excel Detergent 1kg (₹165), Vim Dishwash Liquid 500ml (₹95), Harpic Toilet Cleaner 500ml (₹105), Colin Glass Cleaner 500ml (₹125), Lizol Disinfectant Floor Cleaner 975ml (₹145), and Ariel Washing Powder 1kg (₹195)",
+        "context": "hindi_query"
+    },
+    {
+        "query": "Who is the president of India?",
+        "ground_truth": "I don't have context for this query. This question is about general knowledge regarding current political positions, which is not related to the product inventory.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "What is the capital of France?",
+        "ground_truth": "I don't have context for this query. This is a general knowledge geography question that is not related to the available products.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "When did World War 2 end?",
+        "ground_truth": "I don't have context for this query. This is a historical general knowledge question not related to the product catalog.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "What is the speed of light?",
+        "ground_truth": "I don't have context for this query. This is a physics general knowledge question that is not related to the products in inventory.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "Who wrote Romeo and Juliet?",
+        "ground_truth": "I don't have context for this query. This is a literature general knowledge question not related to the available products.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "How many planets are in the solar system?",
+        "ground_truth": "I don't have context for this query. This is an astronomy general knowledge question not related to the product inventory.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "What is photosynthesis?",
+        "ground_truth": "I don't have context for this query. This is a biology general knowledge question that is not related to the products available.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "Who invented the telephone?",
+        "ground_truth": "I don't have context for this query. This is a historical general knowledge question about inventions, not related to the product catalog.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "What is the largest ocean?",
+        "ground_truth": "I don't have context for this query. This is a geography general knowledge question not related to the products in the store.",
+        "context": "general_knowledge"
+    },
+    {
+        "query": "What year did India gain independence?",
+        "ground_truth": "I don't have context for this query. This is a historical general knowledge question about Indian independence, not related to the available products.",
+        "context": "general_knowledge"
+    }
+]
